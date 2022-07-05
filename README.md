@@ -12,6 +12,10 @@ To activate the environment
 ```sh
 source envir/bin/activate
 ```
+To close the environment just type
+```sh
+deactivate
+```
 Make sure that the name of your environment appears at the beginning in our case this will be look like this
 ```sh
 (envir)
@@ -31,4 +35,10 @@ pip install lxml
 Or you can install
 ```sh
 pip install html5lib
+```
+```sh
+pip install pandas
+```
+```sh
+pip install bokeh
 ```
